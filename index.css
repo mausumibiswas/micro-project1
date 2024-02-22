@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+.main{
+    background:#FFCD9E;
+    width: 100%;
+    display: flex;
+    height: 592px;
+}
+.side1{
+    margin-left: 136px;
+    margin-right: auto;
+    width: 563px;
+    height: 108px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font: bold;
+    width: 700px;
+    font-size:30px;
+    line-height: 54px;
+}
+
+.pera1{
+    color: #484848;
+    size: 20px;
+    font-size: larger;
+    padding-right: 130px;
+}
+.photo{
+    width: 575px;
+    height: 520px;
+   
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.textBox{
+    width: 350px;
+    height: 54px;
+    border: 4px solid black;
+    border-radius: 8px;
+
+}
+.form{
+    gap: 20px;
+    
+    display: flex;
+    justify-content:start;
+}
+.btn{
+    width: 216px;
+    height: 64px;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    border-radius: 8px;
+    font-size: medium;
+}
+::placeholder{
+    padding-left: 20px;
+    font-size: medium;
+}
+.content2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content3{
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color:  #282828;
+    color: white;
+    margin-top: 0;
+    padding-top: 60px;
+    display: flex;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+ li{
+    list-style-type: none;
+    padding-block: 5px;
+    
+}
+.content6{
+    padding-top: 5px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    font-family: system-ui;
+}
+
+.content5{
+    padding-top: 5px;
+    margin-left: 200px;
+    padding-bottom: 20px;
+    font-family: system-ui;
+}
+.space{
+    float: right;
+    
+}
+@media screen and (max-width: 850px) {
+    .main{
+        width: 100vh;
+        background:#c47737;
+        height: auto;
+        margin: 0;
+        display:grid;
+ 
+    }
+    P{
+        font-size: 1.1em;
+    }
+    .pera1{
+        font-size: 1.5em;
+        
+        color: rgb(200, 217, 175);
+    }
+    .heading{
+        display: inline;
+        font-size: 30px;
+    }
+    .side1{
+        
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+        font-size:1.3rem ;
+    }
+    .form{
+        width: 45vh;
+        display: grid;
+        margin-right: 20vh;
+        justify-content: center;
+       
+    }
+    .form input{
+        
+        width:40vh;
+        padding-left: 0;
+    }
+   .form button{
+    width: 40vh;
+   }
+    body{
+        font-size: medium;
+    }
+    .photo{
+        margin-left: 10vh;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footer{
+        width: 100vh;
+        height: 200px;
+        background-color:  #282828;
+        color: white;
+        margin-top: 0px;
+        padding-top: 60px;
+        margin-bottom: 0;   
+    }
+    .content5{
+        justify-content: space-between;
+        margin-left: 7vh;
+        margin-right: 7vh;
+    }
+    .content6{
+        justify-content: space-between;
+        margin-left: 7vh;
+        margin-right: 7vh;
+    }
